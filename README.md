@@ -1,189 +1,69 @@
-# 🍱 Bhoj-ki-Khoj
+# Welcome to your Lovable project
 
-**A Community-Driven, Sustainable Food Delivery Platform**
+## Project info
 
-![React](https://img.shields.io/badge/Frontend-React.js-blue)
-![Supabase](https://img.shields.io/badge/Database-Supabase-green)
-![Firebase](https://img.shields.io/badge/Auth-Firebase-orange)
-![Maps](https://img.shields.io/badge/API-Maps%20API-red)
-![Status](https://img.shields.io/badge/Project-Hackathon%20Ready-success)
+**URL**: https://lovable.dev/projects/facdafd0-8edc-4c4c-a8f0-c87346499562
 
----
+## How can I edit this code?
 
-## 📌 Problem Statement
+There are several ways of editing your application.
 
-Most food delivery platforms focus on fast food and large restaurants, making it difficult for **home chefs and small local vendors** to reach customers. At the same time, users seeking **healthy, hygienic, and affordable home-style meals** have very limited options.
+**Use Lovable**
 
----
+Simply visit the [Lovable Project](https://lovable.dev/projects/facdafd0-8edc-4c4c-a8f0-c87346499562) and start prompting.
 
-## 💡 Solution – Bhoj-ki-Khoj
+Changes made via Lovable will be committed automatically to this repo.
 
-**Bhoj-ki-Khoj** is a **web-based food delivery platform** that connects users with **home chefs and local food vendors**, supported by a **dabbawala-inspired delivery system**.
-The platform promotes **healthy eating**, **local entrepreneurship**, and **sustainable consumption** through a simple, role-based digital ecosystem.
+**Use your preferred IDE**
 
----
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-## 👥 User Roles & Features
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-### 🧑 User
+Follow these steps:
 
-* Homepage & food discovery
-* Search meals by item or vendor
-* Place and track orders
-* Profile & order history
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-### 🍳 Restaurant / Home Chef
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-* Dashboard
-* Menu management
-* Order handling
-* Schedule & customer view
+# Step 3: Install the necessary dependencies.
+npm i
 
-### 🚲 Dabbawala (Delivery Agent)
-
-* Delivery dashboard
-* Assigned orders
-* Route map & navigation
-* Delivery history
-
-### 🛠️ Admin
-
-* Platform dashboard
-* Manage users, restaurants & dabbawalas
-* Orders & menu control
-* Analytics & feedback monitoring
-
----
-
-## 🧠 Innovation (What Makes It Different)
-
-* Focus on **home-cooked & local food**, not fast food
-* **Low-commission model** for small vendors
-* **Dabbawala-inspired delivery**, reducing carbon footprint
-* Community-centric instead of restaurant-centric
-* Designed with **UN Sustainable Development Goals (SDGs)** in mind
-
----
-
-## ⚙️ Tech Stack & Why It Matters
-
-| Technology   | Purpose             | Why We Used It                          |
-| ------------ | ------------------- | --------------------------------------- |
-| **React.js** | Frontend            | Fast, responsive, component-based UI    |
-| **Supabase** | Database            | Scalable PostgreSQL + real-time updates |
-| **Firebase** | Authentication      | Secure login & role-based access        |
-| **Maps API** | Delivery & Tracking | Route mapping & live tracking           |
-| **Vercel**   | Deployment          | Fast, global web hosting                |
-
----
-
-## 🧩 System Architecture (High Level)
-
-* Role-based login using Firebase
-* Centralized data storage via Supabase
-* Real-time order updates
-* Map-based delivery routing for dabbawalas
-
----
-
-## 🆚 Comparison with Existing Platforms
-
-| Feature                  | Swiggy / Zomato | Bhoj-ki-Khoj |
-| ------------------------ | --------------- | ------------ |
-| Home chefs support       | ❌               | ✅            |
-| Health-focused meals     | ❌               | ✅            |
-| Low vendor commission    | ❌               | ✅            |
-| Community delivery model | ❌               | ✅            |
-| SDG-aligned approach     | ❌               | ✅            |
-
----
-
-## 🎯 Use Cases
-
-* Students and working professionals seeking home-style food
-* Home chefs looking for digital reach
-* Sustainable last-mile delivery
-* Local economy empowerment
-
----
-
-## 📈 Feasibility
-
-* Built using **open-source & cloud-based tools**
-* Scalable backend architecture
-* Works on **all modern web browsers (Android / iOS / Desktop)**
-* Minimal hardware & software requirements for users
-
----
-
-## 🌍 SDG Alignment
-
-* **SDG 3** – Good Health & Well-Being
-* **SDG 8** – Decent Work & Economic Growth
-* **SDG 12** – Responsible Consumption & Production
-
----
-
-## 🛠️ Installation & Run Instructions
-
-### Prerequisites
-
-* Node.js (v18 or above)
-* npm or yarn
-* Active internet connection
-
-### Steps
-
-```bash
-# Clone the repository
-git clone https://github.com/your-username/bhoj-ki-khoj.git
-
-# Navigate to project folder
-cd bhoj-ki-khoj
-
-# Install dependencies
-npm install
-
-# Run development server
+# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
 
-🔐 **Note:**
-API keys (Firebase, Supabase, Maps) are securely managed using environment variables and are **not exposed in the repository**.
+**Edit a file directly in GitHub**
 
----
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-## 🚀 Future Scope
+**Use GitHub Codespaces**
 
-* Native Android & iOS apps
-* AI-based food recommendations
-* Subscription-based meal plans
-* Carbon footprint tracking
-* Multilingual support
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
----
+## What technologies are used for this project?
 
-## 👨‍💻 Team Members
+This project is built with .
 
-* **Deepkumar Das**
-* **Vishal Gowda**
-* **Yash Naik**
-* **Pranav Shirke**
-* **Gideon Mire**
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
----
+## How can I deploy this project?
 
-## 🏆 Why Bhoj-ki-Khoj Stands Out
+Simply open [Lovable](https://lovable.dev/projects/facdafd0-8edc-4c4c-a8f0-c87346499562) and click on Share -> Publish.
 
-* ✔️ Clear real-world problem
-* ✔️ Strong innovation & USP
-* ✔️ High social and economic impact
-* ✔️ Clean, scalable technical design
-* ✔️ Ideal for **Open Innovation / Hackathon evaluation**
+## I want to use a custom domain - is that possible?
 
----
-
-## 📜 License
-
-This project is developed for **academic and hackathon purposes**.
-
+We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
